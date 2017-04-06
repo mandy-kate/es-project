@@ -7,8 +7,9 @@ import { createStore } from 'redux'
 // const store = createStore(reducer)
 
 const render = () => {
-  ReactDOM.render(<App/>,
-    document.getElementById('app'))
+    console.log("In the Index.js")
+    ReactDOM.render(<App/>,
+        document.getElementById('app'))
 }
 
 // store.subscribe(render)
