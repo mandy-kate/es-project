@@ -1,4 +1,6 @@
 import React from 'react'
+import Dropdown from'react-simple-dropdown'
+import List from './list'
 
 export default class App extends React.Component {
   constructor(props) {
@@ -25,9 +27,10 @@ export default class App extends React.Component {
     return (
       <div>
         <h1>Public Sector Leadership Development Options</h1>
-        <button className="button" onClick={this.displayList}>List</button>
+        <List/>
       </div>
     )
   }
 }
   //this is in charge of rendering things and delegating functions
+
